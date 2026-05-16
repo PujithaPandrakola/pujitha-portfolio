@@ -131,15 +131,22 @@ const Hero = () => {
 
             {/* VIEW PROJECTS */}
 
-            <button className="bg-cyan-400 hover:scale-105 transition duration-300 text-black px-8 py-4 rounded-2xl font-semibold shadow-lg shadow-cyan-500/30">
+            <a
+              href="#projects"
+              className="bg-cyan-400 hover:scale-105 transition duration-300 text-black px-8 py-4 rounded-2xl font-semibold shadow-lg shadow-cyan-500/30"
+            >  
               View Projects
-            </button>
+            </a>
 
             {/* CONTACT */}
 
-            <button className="border border-cyan-400 hover:bg-cyan-400 hover:text-black transition duration-300 text-white px-8 py-4 rounded-2xl font-semibold">
+            <a
+              href="#contact" 
+              className="border border-cyan-400 hover:bg-cyan-400 hover:text-black transition duration-300 text-white px-8 py-4 rounded-2xl font-semibold"
+            
+            >
               Contact Me
-            </button>
+            </a>
 
             {/* RESUME */}
 
