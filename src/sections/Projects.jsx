@@ -35,6 +35,23 @@ const projects = [
     demo:
       "https://book-recommendation-system-nc8pqit5hjajpreughgbu8.streamlit.app/",
   },
+
+  {
+    title: "Global Development Cluster Analysis",
+
+    description:
+      "Machine learning project that analyzes global development indicators and groups countries into clusters using unsupervised learning techniques.",
+
+    tech:
+      "Python • Machine Learning • Clustering • Streamlit • Data Visualization",
+
+    github:
+      "https://github.com/PujithaPandrakola/global-development-cluster-analysis",
+
+    demo:
+      "https://global-development-cluster-analysis-jhr973y4jk6cuvwkciq2pq.streamlit.app/",
+  },
+
 ]
 
 const Projects = () => {
